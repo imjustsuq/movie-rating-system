@@ -2,6 +2,10 @@
 
 A simple Python application for registering and rating movies directly from the terminal.
 
+<p align="center">
+  <img src="demo.gif" width="700">
+</p>
+
 ## 📌 Features
 
 - Add movies with a title and rating
