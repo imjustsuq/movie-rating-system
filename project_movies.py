@@ -82,7 +82,7 @@ def main():
         average_rating = sum(ratings) / len(ratings)
         print('\n=== Movie Review Summary ===')
         print(f'Movies reviewed: {", ".join(movies)}')
-        print(f'Registered ratings: {[f"{note:.1f}" for note in ratings]}')
+        print(f'Registered ratings: {[f"{ratings:.1f}" for ratings in ratings]}')
         print(f'Average rating: {average_rating:.2f}')
         print(f'Total movies reviewed: {len(movies)}')
         
